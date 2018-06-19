@@ -1,0 +1,33 @@
+{
+    "name": "restaurant",
+    "version": "1.0.1",
+    "description": "Restaurant",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "grunt"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/santeycode/restaurant.git"
+    },
+    "keywords": [
+      "html",
+      "less",
+      "restaurant"
+    ],
+    "author": "Santey Code",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/santeycode/reataurant/issues"
+    },
+    "homepage": "https://github.com/santeycode/restaurant#readme",
+    "devDependencies": {
+      "grunt": "^1.0.1",
+      "grunt-contrib-connect": "^1.0.2",
+      "grunt-contrib-less": "^1.4.0",
+      "grunt-contrib-watch": "^1.0.0",
+      "less": "^2.7.1",
+      "load-grunt-tasks": "^3.5.2"
+    }
+  }
