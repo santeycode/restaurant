@@ -69,11 +69,11 @@ module.exports = {
             },
             {
                 test: /\.(svg|png|jpg|gif)(\?[\s\S]+)?$/,
-                loader: 'file-loader?name=[name].[ext]&publicPath=/public/&outputPath=images/',
+                loader: 'file-loader?name=images/[name].[ext]',
             },
             {
                 test: /\.(woff|woff2|ttf|eot)(\?[\s\S]+)?$/,
-                loader: 'file-loader?name=[name].[ext]&publicPath=/public/&outputPath=fonts/',
+                loader: 'file-loader?name=fonts/[name].[ext]',
             },
         ],
     },
