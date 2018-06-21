@@ -1,6 +1,6 @@
 /nbproject/private/
-node_modules
-public/css
+/node_modules/
+/dist/
 *.diff
 *.patch
 *.log
